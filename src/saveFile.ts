@@ -14,7 +14,11 @@ const logModuleDetails = () => {
   console.log(`Module located in directory: ${__dirname}`);
 };
 
-const saveFile = (filename, content, directory = "out") => {
+const saveFile = (
+  filename: string,
+  content: string,
+  directory: string = "out"
+) => {
   const filePath = path.join(__dirname, directory, filename);
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, content);
