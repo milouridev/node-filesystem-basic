@@ -1,6 +1,7 @@
 {
   "name": "file-saver",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple program that saves a text file with example content",
   "main": "program.js",
   "scripts": {

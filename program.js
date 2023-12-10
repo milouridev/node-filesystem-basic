@@ -1,4 +1,4 @@
-import saveFile from "./saveFile";
+import saveFile from "./saveFile.js";
 
 const main = () => {
   console.log("Program started");
