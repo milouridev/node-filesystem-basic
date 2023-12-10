@@ -2,7 +2,6 @@
   "name": "file-saver",
   "version": "1.0.0",
   "description": "A simple program that saves a text file with example content",
-  "type": "module",
   "main": "program.js",
   "scripts": {
     "start": "tsc && node dist/program.js"
